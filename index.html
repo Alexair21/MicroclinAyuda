@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>Manual de ayuda</title>
+    <!-- Favicon-->
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+    <!-- Bootstrap Icons-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
+    <!-- Google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans:400,700" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic"
+        rel="stylesheet" type="text/css" />
+    <!-- SimpleLightbox plugin CSS-->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/SimpleLightbox/2.1.0/simpleLightbox.min.css" rel="stylesheet" />
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="css/styles.css" rel="stylesheet" />
+</head>
+
+<body id="page-top">
+    <!-- Navigation-->
+    <!-- Barra de navegación -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top py-3" id="mainNav">
+        <div class="container px-4 px-lg-5">
+            <a class="navbar-brand" href="#page-top">Manual de Ayuda</a>
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ms-auto my-2 my-lg-0">
+                    <li class="nav-item"><a class="nav-link" href="#introduccion">Introducción</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#modelos">Modelos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#predicciones">Predicciones</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#configuracion">Configuración</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Introducción -->
+    <header class="masthead">
+        <div class="container px-4 px-lg-5 h-100">
+            <div class="row gx-4 gx-lg-5 h-100 align-items-center justify-content-center text-center">
+                <div class="col-lg-8 align-self-end">
+                    <h1 class="text-white font-weight-bold">Bienvenido al Manual de Ayuda</h1>
+                    <hr class="divider" />
+                </div>
+                <div class="col-lg-8 align-self-baseline">
+                    <p class="text-white-75 mb-5">Este manual te ayudará a entender cómo usar la aplicación de
+                        pronóstico de enfermedades, que utiliza modelos avanzados como ARIMA, Holt-Winters y redes
+                        neuronales para la predicción de la mortalidad de animales.</p>
+                    <a class="btn btn-primary btn-xl" href="#introduccion">Comenzar</a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Sección de Introducción -->
+    <section class="page-section bg-light" id="introduccion">
+        <div class="container px-4 px-lg-5">
+            <div class="row gx-4 gx-lg-5 justify-content-center align-items-center">
+                <!-- Columna de texto (izquierda) -->
+                <div class="col-lg-6 text-center text-lg-start">
+                    <center>
+                        <h2 class="text-dark mt-0">¿Qué es esta aplicación?</h2>
+                    </center>
+                    <hr class="divider divider-dark" />
+                    <p class="text-muted mb-4">Este sistema permite realizar predicciones sobre la mortalidad de
+                        animales, basándose en datos históricos y utilizando distintos modelos de pronóstico. Con esta
+                        herramienta podrás predecir enfermedades y gestionar mejor los recursos.</p>
+                </div>
+                <!-- Columna de imagen (derecha) -->
+                <div class="col-lg-6">
+                    <img class="img-fluid rounded"
+                        src="https://media.discordapp.net/attachments/747673943338385429/1312928556464082975/67f013e2-b057-4d4d-aa4e-986d9d4fcbc2.png?ex=674e4780&is=674cf600&hm=628e5cd815bd6df5d1a756b2136c4c0ea58466bf428dcd26ca6a8fd79f91b342&=&format=webp&quality=lossless&width=756&height=427"
+                        alt="Imagen de la aplicación" />
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Configuración de Parámetros -->
+    <section class="page-section" id="configuracion">
+        <div class="container px-4 px-lg-5">
+            <h2 class="text-center mt-0">Configuración de Parámetros</h2>
+            <hr class="divider" />
+            <div class="row gx-4 gx-lg-5 align-items-center">
+                <!-- Columna para la imagen -->
+                <div class="col-lg-6">
+                    <img class="img-fluid rounded"
+                        src="https://media.discordapp.net/attachments/747673943338385429/1312932869244452925/image.png?ex=674e4b85&is=674cfa05&hm=625caef3c9fcb5e839c8783cb212e79c41d880d5a68038cf24d536b35a5acb77&=&format=webp&quality=lossless&width=493&height=647"
+                        alt="Imagen de configuración" />
+                </div>
+                <!-- Columna para el contenido -->
+                <div class="col-lg-6">
+                    <p class="text-muted">A continuación puedes configurar los parámetros de la predicción. Haz clic en
+                        cada uno de ellos para ver más detalles.</p>
+
+                    <!-- Tarjetas Interactivas -->
+                    <div class="card-deck">
+                        <!-- Tarjeta Especie -->
+                        <div class="card">
+                            <div class="card-header">
+                                <button class="btn btn-link" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseEspecie">
+                                    <h5 class="card-title">Selección de Especie</h5>
+                                </button>
+                            </div>
+                            <div id="collapseEspecie" class="collapse">
+                                <div class="card-body">
+                                    <p>Selecciona la especie de la que deseas realizar la predicción. Las opciones
+                                        disponibles incluyen:</p>
+                                    <ul>
+                                        <li>Avícola</li>
+                                        <li>Equino</li>
+                                        <li>Bovino</li>
+                                        <li>Caprino</li>
+                                        <li>Porcino</li>
+                                        <li>Ovino</li>
+                                    </ul>
+                                    <p>Este parámetro afectará las predicciones basadas en los datos específicos de cada
+                                        especie.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Tarjeta Fecha de Inicio -->
+                        <div class="card">
+                            <div class="card-header">
+                                <button class="btn btn-link" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseFechaInicio">
+                                    <h5 class="card-title">Fecha de Inicio</h5>
+                                </button>
+                            </div>
+                            <div id="collapseFechaInicio" class="collapse">
+                                <div class="card-body">
+                                    <p>Selecciona la fecha en la que deseas que inicien las predicciones. Esto marcará
+                                        el punto de partida de los datos históricos que se usarán para estimar los
+                                        resultados.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Tarjeta Fecha Máxima -->
+                        <div class="card">
+                            <div class="card-header">
+                                <button class="btn btn-link" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseFechaFin">
+                                    <h5 class="card-title">Fecha Máxima de Estimación</h5>
+                                </button>
+                            </div>
+                            <div id="collapseFechaFin" class="collapse">
+                                <div class="card-body">
+                                    <p>Selecciona la fecha máxima hasta la cual deseas realizar la estimación. Esta
+                                        fecha marcará el final del rango de predicción.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Tarjeta Departamento -->
+                        <div class="card">
+                            <div class="card-header">
+                                <button class="btn btn-link" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseDepartamento">
+                                    <h5 class="card-title">Selección de Departamento</h5>
+                                </button>
+                            </div>
+                            <div id="collapseDepartamento" class="collapse">
+                                <div class="card-body">
+                                    <p>Selecciona el departamento para el cual deseas realizar la estimación. Este
+                                        parámetro es crucial para filtrar los datos de manera geográfica y realizar
+                                        estimaciones precisas.</p>
+                                    <ul>
+                                        <li>Antioquia</li>
+                                        <li>Bogotá</li>
+                                        <li>Valle del Cauca</li>
+                                        <li>Cundinamarca</li>
+                                        <li>Atlántico</li>
+                                        <li>Nariño</li>
+                                        <!-- Agregar más departamentos según sea necesario -->
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About-->
+<section class="page-section bg-primary" id="about">
+    <div class="container px-4 px-lg-5">
+        <div class="row gx-4 gx-lg-5 justify-content-center">
+            <div class="col-lg-8 text-center">
+                <h2 class="text-white mt-0">¡Descubre el poder de las predicciones de mortalidad animal!</h2>
+                <p class="text-white-75 mb-4">Visita nuestra página y prueba la aplicación en tiempo real. Comienza a realizar estimaciones para distintas especies, ajusta parámetros clave, y observa cómo nuestros modelos proporcionan pronósticos precisos para ayudarte a tomar decisiones informadas en la gestión de tu ganado, aves o cualquier otra especie. ¡Te invitamos a ser parte de este avance en la tecnología predictiva!</p>
+                <a class="btn btn-light btn-xl" href="https://diseases-microclin-prediction.streamlit.app/" target="_blank">Prueba la Aplicación</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+    <!-- Código de los Modelos -->
+    <section class="page-section bg-light" id="modelos">
+        <div class="container px-4 px-lg-5">
+            <h2 class="text-center mt-0">Código de los Modelos</h2>
+            <hr class="divider" />
+            <p class="text-muted text-center">A continuación se presenta el código que implementa los modelos de ARIMA,
+                Holt-Winters y redes neuronales.</p>
+
+            <!-- Fila de cuadros (uno debajo del otro) -->
+            <div class="row gx-4 gx-lg-5 justify-content-center">
+                <!-- Cuadro ARIMA -->
+                <div class="col-lg-12 mb-4">
+                    <div class="card bg-dark text-white rounded">
+                        <div class="card-header">
+                            <h4 class="text-center">Modelo ARIMA</h4>
+                        </div>
+                        <div class="card-body">
+                            <pre><code class="text-white">
+# ARIMA Model
+from statsmodels.tsa.arima.model import ARIMA
+model = ARIMA(data, order=(5, 1, 0))
+model_fit = model.fit()
+                        </code></pre>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Cuadro Holt-Winters -->
+                <div class="col-lg-12 mb-4">
+                    <div class="card bg-dark text-white rounded">
+                        <div class="card-header">
+                            <h4 class="text-center">Modelo Holt-Winters</h4>
+                        </div>
+                        <div class="card-body">
+                            <pre><code class="text-white">
+# Holt-Winters Model
+from statsmodels.tsa.holtwinters import ExponentialSmoothing
+model_hw = ExponentialSmoothing(data, trend='add', seasonal='add', seasonal_periods=12)
+model_hw_fit = model_hw.fit()
+                        </code></pre>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Cuadro Redes Neuronales -->
+                <div class="col-lg-12 mb-4">
+                    <div class="card bg-dark text-white rounded">
+                        <div class="card-header">
+                            <h4 class="text-center">Modelo Redes Neuronales</h4>
+                        </div>
+                        <div class="card-body">
+                            <pre><code class="text-white">
+# Neural Network Model
+from keras.models import Sequential
+from keras.layers import Dense, LSTM
+model_nn = Sequential()
+model_nn.add(LSTM(50, return_sequences=True, input_shape=(X_train.shape[1], X_train.shape[2])))
+model_nn.add(LSTM(50))
+model_nn.add(Dense(1))
+model_nn.compile(optimizer='adam', loss='mean_squared_error')
+model_nn.fit(X_train, y_train, epochs=10, batch_size=32)
+                        </code></pre>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+    <!-- Visualización de Resultados -->
+    <section class="page-section bg-light" id="predicciones">
+        <div class="container px-4 px-lg-5">
+            <h2 class="text-center mt-0">Visualización de Resultados</h2>
+            <hr class="divider" />
+            <p class="text-muted text-center">Una vez obtenidas las predicciones, los resultados pueden visualizarse a
+                través de gráficos interactivos que muestran las proyecciones y la comparación con los datos reales.</p>
+
+            <!-- Primera fila: Contenido a la derecha, Imagen a la izquierda -->
+            <div class="row gx-4 gx-lg-5 justify-content-center align-items-center mb-4">
+                <!-- Columna de Imagen (Izquierda) -->
+                <div class="col-lg-6 mb-4">
+                    <img class="img-fluid"
+                        src="https://media.discordapp.net/attachments/747673943338385429/1312940588911296532/image.png?ex=674e52b5&is=674d0135&hm=0aaa7d2114a49acfa572269c947526b753a5d86d871683ac49f57e2019b97065&=&format=webp&quality=lossless&width=929&height=662"
+                        alt="Gráfico de Mortalidad" />
+                </div>
+                <!-- Columna de Contenido (Derecha) -->
+                <div class="col-lg-6 mb-4">
+                    <div class="text-center text-lg-start">
+                        <h3 class="text-dark">Predicción de Mortalidad de Animales para la Especie</h3>
+                        <p class="text-muted mb-4">Esta visualización permite observar las proyecciones de mortalidad
+                            para la especie seleccionada, utilizando los modelos predictivos implementados. La
+                            predicción se realiza a partir de los datos históricos disponibles, brindando una estimación
+                            precisa sobre las tasas de mortalidad, lo que puede ayudar a tomar decisiones más informadas
+                            en la gestión de recursos y el control de enfermedades.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Segunda fila: Contenido a la izquierda, Imagen a la derecha -->
+            <div class="row gx-4 gx-lg-5 justify-content-center align-items-center mb-4">
+                <!-- Columna de Contenido (Izquierda) -->
+                <div class="col-lg-6 mb-4">
+                    <div class="text-center text-lg-start">
+                        <h3 class="text-dark">Evolución por Departamento</h3>
+                        <p class="text-muted mb-4">La evolución de la mortalidad de los animales es analizada por
+                            departamento, permitiendo una visión regionalizada del impacto de las enfermedades. Esta
+                            visualización muestra las tendencias a lo largo del tiempo para cada departamento, lo que
+                            facilita la identificación de áreas con mayor incidencia y permite tomar acciones
+                            preventivas más eficaces.</p>
+                    </div>
+                </div>
+                <!-- Columna de Imagen (Derecha) -->
+                <div class="col-lg-6 mb-4">
+                    <img class="img-fluid"
+                        src="https://media.discordapp.net/attachments/747673943338385429/1312940700232450138/image.png?ex=674e52d0&is=674d0150&hm=9db7d29e1e8a6928936e9bf0192a3a4ab9687c6259edb786bb669c38d6c45996&=&format=webp&quality=lossless&width=917&height=662"
+                        alt="Evolución por Departamento" />
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Services-->
+    <section class="page-section" id="services">
+        <div class="container px-4 px-lg-5">
+            <h2 class="text-center mt-0">Modelos de Predicción</h2>
+            <hr class="divider" />
+            <div class="row gx-4 gx-lg-5">
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="mt-5">
+                        <div class="mb-2"><i class="bi-graph-up fs-1 text-primary"></i></div>
+                        <h3 class="h4 mb-2">ARIMA</h3>
+                        <p class="text-muted mb-0">ARIMA es un modelo estadístico que se utiliza para predecir series
+                            temporales, adecuado para datos con o sin estacionalidad.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="mt-5">
+                        <div class="mb-2"><i class="bi-bar-chart fs-1 text-primary"></i></div>
+                        <h3 class="h4 mb-2">Holt-Winters</h3>
+                        <p class="text-muted mb-0">El método de Holt-Winters es ideal para datos con componentes de
+                            tendencia y estacionalidad, ajustando la predicción según estos patrones.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="mt-5">
+                        <div class="mb-2"><i class="bi-sun fs-1 text-primary"></i></div>
+                        <h3 class="h4 mb-2">Redes Neuronales</h3>
+                        <p class="text-muted mb-0">Las redes neuronales son un enfoque avanzado para modelar relaciones
+                            no lineales y realizar predicciones complejas basadas en grandes volúmenes de datos.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="mt-5">
+                        <div class="mb-2"><i class="bi-lightbulb fs-1 text-primary"></i></div>
+                        <h3 class="h4 mb-2">Predicción Inteligente</h3>
+                        <p class="text-muted mb-0">Combinando ARIMA, Holt-Winters y redes neuronales, nuestro sistema
+                            permite generar predicciones precisas y personalizadas para la mortalidad animal.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <div id="portfolio">
+        <div class="container-fluid p-0">
+            <div class="row g-0">
+                <!-- Imagen 1 -->
+                <div class="col-lg-4 col-sm-6">
+                    <a class="portfolio-box" href="assets/img/portfolio/fullsize/1.jpg" title="Project Name">
+                        <img class="img-fluid portfolio-img" src="assets/img/portfolio/thumbnails/1.jpg" alt="..." />
+                        <div class="portfolio-box-caption">
+                            <div class="project-category text-white-50">Datos de enfermedades</div>
+                            <div class="project-name">Aves</div>
+                        </div>
+                    </a>
+                </div>
+                <!-- Imagen 2 -->
+                <div class="col-lg-4 col-sm-6">
+                    <a class="portfolio-box" href="assets/img/portfolio/fullsize/2.jpg" title="Project Name">
+                        <img class="img-fluid portfolio-img" src="assets/img/portfolio/thumbnails/2.jpg" alt="..." />
+                        <div class="portfolio-box-caption">
+                            <div class="project-category text-white-50">Muestras actualizadas</div>
+                            <div class="project-name">SENASA</div>
+                        </div>
+                    </a>
+                </div>
+                <!-- Imagen 3 -->
+                <div class="col-lg-4 col-sm-6">
+                    <a class="portfolio-box" href="assets/img/portfolio/fullsize/3.jpg" title="Project Name">
+                        <img class="img-fluid portfolio-img" src="assets/img/portfolio/thumbnails/3.jpg" alt="..." />
+                        <div class="portfolio-box-caption">
+                            <div class="project-category text-white-50">Categoria</div>
+                            <div class="project-name">Porcina</div>
+                        </div>
+                    </a>
+                </div>
+                <!-- Imagen 4 -->
+                <div class="col-lg-4 col-sm-6">
+                    <a class="portfolio-box" href="assets/img/portfolio/fullsize/4.jpg" title="Project Name">
+                        <img class="img-fluid portfolio-img" src="assets/img/portfolio/thumbnails/4.jpg" alt="..." />
+                        <div class="portfolio-box-caption">
+                            <div class="project-category text-white-50">Datos</div>
+                            <div class="project-name">Avicolas</div>
+                        </div>
+                    </a>
+                </div>
+                <!-- Imagen 5 -->
+                <div class="col-lg-4 col-sm-6">
+                    <a class="portfolio-box" href="assets/img/portfolio/fullsize/5.jpg" title="Project Name">
+                        <img class="img-fluid portfolio-img" src="assets/img/portfolio/thumbnails/5.jpg" alt="..." />
+                        <div class="portfolio-box-caption">
+                            <div class="project-category text-white-50">Datos</div>
+                            <div class="project-name">Bovinos</div>
+                        </div>
+                    </a>
+                </div>
+                <!-- Imagen 6 -->
+                <div class="col-lg-4 col-sm-6">
+                    <a class="portfolio-box" href="assets/img/portfolio/fullsize/6.jpg" title="Project Name">
+                        <img class="img-fluid portfolio-img" src="assets/img/portfolio/thumbnails/6.jpg" alt="..." />
+                        <div class="portfolio-box-caption p-3">
+                            <div class="project-category text-white-50">Datos</div>
+                            <div class="project-name">Ovinos</div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Footer-->
+    <!-- Pie de página -->
+    <footer class="bg-light py-5">
+        <div class="container px-4 px-lg-5">
+            <div class="small text-center text-muted">Copyright &copy; 2024 Pronóstico de Enfermedades | Todos los
+                derechos reservados</div>
+        </div>
+    </footer>
+    <!-- Bootstrap core JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- SimpleLightbox plugin JS-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/SimpleLightbox/2.1.0/simpleLightbox.min.js"></script>
+    <!-- Core theme JS-->
+    <script src="js/scripts.js"></script>
+    <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+    <!-- * *                               SB Forms JS                               * *-->
+    <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
+    <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+    <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+</body>
+
+</html>
