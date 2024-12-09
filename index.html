@@ -245,8 +245,11 @@
                 <!-- Columna para el contenido -->
                 <div class="col-lg-10 mt-2 d-flex justify-content-center">
                     <p class="text-muted">
-                        En esta vista podrá encontar todo lo referente a productos y servicios como tambien muestras, este panel muestra una serie de filtros y dos gráficos detallados.
+                        En esta vista podrá encontrar todo lo referente a productos y servicios, como también muestras. Este panel muestra una serie de filtros y dos gráficos detallados. En la parte superior se destacan tres indicadores clave: el total de muestras con 4,972 mil, el total de productos con 742 y la duración promedio de las muestras con 1,48 mil. En la parte inferior izquierda, un gráfico de líneas compara la cantidad de muestras de 2023 y 2024 por mes, mostrando tendencias a lo largo del año. A la derecha, un gráfico de dona presenta los 10 productos o servicios más demandados
+                        <br> <br>
+                        <strong class="bg-warning">Nota: </strong> Los valores mostrados pueden variar dependiendo de la cantidad de registros.
                     </p>
+
                 </div>
 
                 <!-- Columna para la imagen -->
@@ -322,17 +325,172 @@
                     </div>
                 </div>
             </div>
+
+            <!-- CLientes -->
+            <hr class="mt-5 divider"/>
+            <h4 class="text-center mt-0" id="dashboard_clientes">Vista Clientes</h4>
+            <div class="row gx-4 gx-lg-5 d-flex justify-content-center align-content-center">
+                
+                <!-- Columna para el contenido -->
+                <div class="col-lg-10 mt-2 d-flex justify-content-center">
+                    <p class="text-muted">
+                        Este panel ofrece información clave sobre los clientes. En la parte superior izquierda, un cuadro resalta el total de clientes registrados: 802 (ese valor puede variar). El centro del panel incluye un mapa interactivo de Perú, que muestra la cantidad de clientes por departamento mediante colores que reflejan la densidad regional. A la derecha, una tabla detallada presenta datos como el nombre o razón social del cliente, el RUC y su ubicación geográfica.
+                        <br> <br>
+                        <strong class="bg-warning">Nota: </strong> Los valores mostrados pueden variar dependiendo de la cantidad de registros.
+                    </p>
+                </div>
+
+                <!-- Columna para la imagen -->
+                <div class="col-lg-12 mt-2 d-flex justify-content-center">
+                    <img class="img-fluid rounded w-75" src="assets/img/images_dashboard/img_clientes.png" alt="Imagen de configuración" />
+                </div>
+
+                <hr class="mt-5 divider"/>
+
+                <div class="d-flex justify-content-center  row gx-4 gx-lg-5 align-items-center">
+                    <!-- Columna para la imagen -->
+                    <div class="col-lg-8">
+                        <img class="img-fluid rounded" src="assets/img/images_dashboard/filtros_clientes.png" alt="Imagen de configuración" />
+                    </div>
+                    <!-- Columna para el contenido -->
+                    <div class="col-lg-8 mt-5">
+                        <p class="text-muted">
+                            Estos filtros sirven para dinamizar la información que se muestra en los gráficos, permitiendo al usuario visualizar la información de manera más detallada.
+                        </p>
+               
+                        <!-- Tarjetas Interactivas -->
+                        <div class="card-deck">
+                            <!-- Tarjeta pirncipal -->
+                            <div class="card">
+                                <div class="card-header">
+                                    <button class="btn btn-link" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseDepartamentoa">
+                                        <h5 class="card-title">Filtro de departamento</h5>
+                                    </button>
+                                </div>
+                                <div id="collapseDepartamentoa" class="collapse">
+                                    <div class="card-body">
+                                        <p class="text-muted">
+                                            Este filtro permite seleccionar un dapartamento para visualizar los datos de los clietes que están en dicho departamento.
+                                        </p>                         
+                                    </div>
+                                </div>
+                            </div>
+
+    
+                            <!-- Tarjeta Busvcar Clientes -->
+                            <div class="card">
+                                <div class="card-header">
+                                    <button class="btn btn-link" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseBuscador">
+                                        <h5 class="card-title">Buscador por RUC</h5>
+                                    </button>
+                                </div>
+                                <div id="collapseBuscador" class="collapse">
+                                    <div class="card-body">
+                                        <p class="text-muted">
+                                            Este filtro permite buscar a un cliente en específico mediante su RUC para visualizar los datos de ese cliente en particular.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+             <!-- Enfermedades -->
+             <hr class="mt-5 divider"/>
+             <h4 class="text-center mt-0" id="dashboard_clientes">Vista Enfermedad</h4>
+             <div class="row gx-4 gx-lg-5 d-flex justify-content-center align-content-center">
+                 
+                 <!-- Columna para el contenido -->
+                 <div class="col-lg-10 mt-2 d-flex justify-content-center">
+                     <p>
+                        En esta vista podrá encontrar todo lo referente a enfermedades. Este panel muestra una serie de filtros y tres gráficos detallados. En la parte superior se destacan tres indicadores clave: el total de casos con 12 mil, el total de muertos con 2859 y la tasa de mortalidad de esa enfermedad 24,81%. El gráfico de la izquierda del panel incluye un mapa interactivo de Perú, que muestra la cantidad de muertos por enfermedad en las diferentes regiones mediante colores que reflejan la densidad regional. El primer gráfico de la derecha muestra la tendencia de los casos por mes y el ultimo grafico muestra la densidad de muertos por enfermedad.ú.
+                         <br> <br>
+                         <strong class="bg-warning">Nota: </strong> Los valores mostrados pueden variar dependiendo de la cantidad de registros.
+                     </p>
+                 </div>
+ 
+                 <!-- Columna para la imagen -->
+                 <div class="col-lg-12 mt-2 d-flex justify-content-center">
+                     <img class="img-fluid rounded w-75" src="assets/img/images_dashboard/img_enfermedad.png" alt="Imagen de configuración" />
+                 </div>
+ 
+                 <hr class="mt-5 divider"/>
+ 
+                 <div class="d-flex justify-content-center  row gx-4 gx-lg-5 align-items-center">
+                     <!-- Columna para la imagen -->
+                     <div class="col-lg-8">
+                         <img class="img-fluid rounded" src="assets/img/images_dashboard/filtros_enfermedad.png" alt="Imagen de configuración" />
+                     </div>
+                     <!-- Columna para el contenido -->
+                     <div class="col-lg-8 mt-5">
+                         <p class="text-muted">
+                             Estos filtros sirven para dinamizar la información que se muestra en los gráficos, permitiendo al usuario visualizar la información de manera más detallada.
+                         </p>
+                
+                         <div class="card-deck">
+                            <!-- Tarjeta pirncipal -->
+                            <div class="card">
+                                <div class="card-header">
+                                    <button class="btn btn-link" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseFecha">
+                                        <h5 class="card-title">Filtro de fechas</h5>
+                                    </button>
+                                </div>
+                                <div id="collapseFecha" class="collapse">
+                                    <div class="card-body">
+                                        <p class="text-muted">
+                                            Este filtro permite seleccionar un rango de fechas para visualizar los datos de las enfermedads en un periodo específico.
+                                        </p>                         
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Tarjeta Productos -->
+                            <div class="card">
+                                <div class="card-header">
+                                    <button class="btn btn-link" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseFamilia">
+                                        <h5 class="card-title">Filtro de especie</h5>
+                                    </button>
+                                </div>
+                                <div id="collapseFamilia" class="collapse">
+                                    <div class="card-body">
+                                        <p class="text-muted">
+                                            Este filtro permite seleccionar la especie para poder ver la evolucion de enfermedad y sus casos de mortalidad.
+                                        </p>                          
+                                    </div>
+                                </div>
+                            </div>
+    
+                            <!-- Tarjeta CLientes -->
+                            <div class="card">
+                                <div class="card-header">
+                                    <button class="btn btn-link" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseBuscador">
+                                        <h5 class="card-title">Buscador de enfermedad</h5>
+                                    </button>
+                                </div>
+                                <div id="collapseBuscador" class="collapse">
+                                    <div class="card-body">
+                                        <p class="text-muted">
+                                            Este filtro permite buscar una enfermedad en específico para visualizar los datos de esa enfermedad en particular.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                     </div>
+                 </div>
+             </div>
         </div>
-
-    
-
-    
-
     </section>
 
 
-    <!-- Ayuda para el modelo -->
-    <section class="mt-3 page-section" id="predicciones">
+    <!-- Ayuda para el móudlo de prediccion de Streamlit -->
+    <section class="page-section" id="predicciones">
         <div class="container px-4 px-lg-5">
             <h2 class="text-center mt-0">Módulo de predicción</h2>
             <hr class="divider" />
